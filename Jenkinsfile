@@ -4,7 +4,7 @@ pipeline{
 		notifyEmail ="bharat.garg@nagarro.com"
 	}
     tools{
-        maven 'maven'
+        maven 'MAVEN'
     }
     stages{
         stage("code checkout"){
